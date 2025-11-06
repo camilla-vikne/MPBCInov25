@@ -1,0 +1,102 @@
+/*
+header h1
+main section
+article #space-container1 #space-container2 #space-container3 #space-container4
+h3 img p .img-txt
+*/
+/*
+dark blue: #0B132B
+middle blue: #1C2541
+light blue: #3A506B
+dark turquoise: #5BC0BE
+light turquoise: #6FFFE9 
+*/
+@font-face {
+  font-family: "Oxanium";
+  src: url(./assets/fonts/Oxanium-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "VT323 pixel";
+  src: url(./assets/fonts/VT323-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100svh;
+  width: 100svw;
+  background-color: blueviolet;
+  text-align: center;
+}
+header {
+  background-color: #1c2541;
+  height: 100px;
+  padding: 20px;
+}
+h1 {
+  color: #6fffe9;
+  font-family: "VT323 pixel", sans-serif;
+  font-size: 50px;
+  letter-spacing: 1.5px;
+}
+main {
+  /* background-image: url(./assets/img/jeremy-thomas-4dpAqfTbvKA-unsplash.jpg); */
+  height: 100%;
+  width: 100%;
+}
+h3,
+p {
+  background-color: rgba(240, 248, 255, 0.533);
+  width: 380px;
+  margin: 0px auto;
+  padding: 10px;
+}
+h3 {
+  height: 30px;
+  background-color: aqua;
+  width: 200px;
+}
+img {
+  width: 400px;
+}
+section {
+  border: 10px solid red;
+  height: 2000px;
+  width: 500px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+article {
+  width: 450px;
+  height: 450px;
+  margin: 10px auto;
+}
+#space-container1 {
+  border: solid green 5px;
+}
+#space-container2 {
+  border-top: 5px solid green;
+  border-right: 10px dotted blue;
+  border-bottom: 3px ridge orange;
+  border-left: 9px double white;
+}
+#space-container3 {
+  border: solid yellow 5px;
+}
+#space-container4 {
+  border: solid 5px hotpink;
+}
+/* .art-even{
+    background-color: orange;
+} */
+#space-container1,
+#space-container3 {
+  background-color: orange;
+}
